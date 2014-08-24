@@ -1,0 +1,31 @@
+/**
+ * Layout
+ * ------
+ */
+
+* {
+  .box-sizing(border-box);
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.main {
+  height: 100%;
+  min-width: @mq-screen-xl;
+  overflow: hidden;
+}
+
+.main {
+  .display(flex);
+}
+
+.cl {
+  clear: left;
+}

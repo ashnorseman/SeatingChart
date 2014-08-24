@@ -1,0 +1,13 @@
+{
+  "name": "SeatingChart",
+  "version": "0.1.0",
+  "dependencies": {
+    "modernizr": ">=2.8.3",
+    "jquery": ">=2.1.1",
+    "underscore": ">=1.6.0",
+    "backbone": ">=1.1.2",
+    "font-awesome": ">=4.1.0",
+    "normalize-css": ">=3.0.1",
+    "lesshat": ">=3.0.2"
+  }
+}

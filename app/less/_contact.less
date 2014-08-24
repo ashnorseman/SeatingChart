@@ -1,0 +1,78 @@
+
+.pic-ued {
+  background-color: @group-ued-color;
+}
+
+.pic-uid {
+  background-color: @group-uid-color;
+}
+
+.pic-product {
+  background-color: @group-product-color;
+}
+
+.pdc-qa {
+  background-color: @group-qa-color;
+}
+
+.pdc-dev {
+  background-color: @group-dev-color;
+}
+
+.pdc-mgr {
+  background-color: @group-mgr-color;
+}
+
+.contact {
+  font-size: @contact-font-size;
+
+  > li {
+    border-bottom: 1px @contact-border solid;
+    cursor: default;
+    padding: @gap-v @gap-h;
+    .transition(all 0.3s ease-in-out);
+
+    &:hover {
+      background-color: @contact-hover-bg;
+      color: @contact-hover-color;
+
+      .group {
+        opacity: 1;
+      }
+    }
+  }
+
+  .group {
+    border-radius: 50%;
+    float: left;
+    height: @contact-group-size;
+    margin: @gap-v (@gap-h * 2) 0 0;
+    opacity: 0.7;
+    width: @contact-group-size;
+    .transition(opacity 0.3s ease-in-out);
+  }
+
+  .name-en {
+    font-size: @contact-name-en-size;
+    font-weight: 700;
+    margin-right: @gap-h;
+  }
+
+  .name-zh {
+    font-size: @contact-font-size / 4 * 3;
+    white-space: pre;
+
+    &:before {
+      content: "(";
+    }
+
+    &:after {
+      content: ")\A";
+    }
+  }
+
+  .location,
+  .ext {
+    margin-right: @gap-h;
+  }
+}

@@ -1,0 +1,35 @@
+
+.seating {
+  color: @seating-color;
+  font-size: @seating-font-size;
+  padding: (@gap-v * 2) (@gap-h * 2);
+}
+
+.row {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.block {
+  margin-bottom: @gap-v * 2;
+}
+
+.seat {
+  display: inline-block;
+  padding: (@gap-v / 2) 0;
+  text-align: center;
+  vertical-align: top;
+  margin-right: -0.3em;
+  width: 33.3%;
+
+  > span {
+    display: block;
+  }
+
+  > .name-en {
+    font-size: @seating-font-size * 1.5;
+    font-weight: 700;
+    display: block;
+    min-height: 90px;
+  }
+}

@@ -1,0 +1,148 @@
+/**
+ * - Color
+ * - Layout
+ * - Page Nav
+ * - Detail
+ * - Contact
+ * - Seating
+ * - Typography
+ * - Media Query
+ */
+
+
+/** @Color */
+
+@color-gray-100:    #f0f1f5;
+@color-gray-200:    #e6e7eb;
+@color-gray-300:    #ced1d9;
+@color-gray-400:    #acb1bf;
+@color-gray-500:    #b4b6bf;
+@color-gray-600:    #7b808c;
+@color-gray-700:    #81858f;
+@color-gray-800:    #676b73;
+@color-gray-900:    #3a3d42;
+
+@color-red:         #ed5565;
+@color-red-dark:    #da4453;
+@color-orange:      #fc6e51;
+@color-orange-dark: #e9573f;
+@color-yellow:      #ffce54;
+@color-yellow-dark: #f6bb42;
+@color-green:       #48cfad;
+@color-green-dark:  #37bc9b;
+@color-aqua:        #4fc1e9;
+@color-aqua-dark:   #3bafda;
+@color-blue:        #5d9cec;
+@color-blue-dark:   #4a89dc;
+@color-purple:      #ec87c0;
+@color-purple-dark: #d770ad;
+
+@color-primary:       @color-purple;
+@color-primary-dark:  @color-purple-dark;
+
+@color-bg:      @color-gray-900;
+@color-text:    @color-gray-100;
+@color-border:  @color-gray-300;
+
+@color-link:        @color-primary;
+@color-link-hover:  @color-primary-dark;
+
+/** @Color end */
+
+
+/** @Media Query */
+
+@mq-mobile:     480px;
+@mq-pad-height: 768px;
+@mq-pad-width:  1024px;
+@mq-screen-lg:  1200px;
+@mq-screen-xl:  1366px;
+
+/** @Media Query end */
+
+
+/** @Layout */
+
+@gap-v: 20px;
+@gap-h: 20px;
+
+/** @Layout end */
+
+
+/** @Page Nav */
+
+@page-nav-menu-padding:           100px;
+@page-nav-menu-width:             650px;
+@page-nav-letter-color:           @color-gray-300;
+@page-nav-letter-font-size:       2.5rem;
+@page-nav-list-title-size:        3rem;
+@page-nav-list-sub-size:          2em;
+@page-nav-list-sub-color:         @color-primary-dark;
+@page-nav-list-arrow-color:       @color-primary-dark;
+@page-nav-list-arrow-size:        3rem;
+@page-nav-list-current-color:     @color-primary;
+@page-nav-list-current-width:     @gap-h / 2;
+@page-nav-list-current-timing:    cubic-bezier(.21,.34,.09,1.43);
+@page-nav-ring-size:              720px;
+@page-nav-icon-bg:                @color-gray-800;
+@page-nav-icon-color:             @color-gray-900;
+@page-nav-icon-border:            20px;
+@page-nav-icon-font-size:         70px;
+@page-nav-icon-size:              @page-nav-icon-font-size + @page-nav-icon-border * 4;
+@page-nav-icon-active-bg:         @color-primary;
+@page-nav-icon-active-color:      @color-text;
+@page-nav-icon-active-font-size:  @page-nav-icon-font-size + @page-nav-icon-border * 2;
+@page-nav-icon-active-size:       @page-nav-icon-size + @page-nav-icon-border * 2;
+
+// Cloud
+@logo-cloud-size: 15rem;
+
+/** @Page Nav end */
+
+
+/** @Detail */
+
+@detail-nav-width:  450px;
+@detail-bg:         lighten(@color-gray-900, 5%);
+@detail-color:      @color-gray-200;
+
+/** @Detail end */
+
+
+/** @Contact */
+
+@contact-font-size:   1.5rem;
+@contact-hover-color: @color-gray-100;
+@contact-hover-bg:    @color-gray-900;
+@contact-border:      @color-gray-800;
+@contact-group-size:  40px;
+@contact-name-en-size:  2rem;
+@group-ued-color:     @color-red;
+@group-uid-color:     @color-aqua;
+@group-product-color: @color-yellow-dark;
+@group-qa-color:      @color-green;
+@group-dev-color:     @color-blue;
+@group-mgr-color:     @color-orange;
+
+/** @Contact end */
+
+
+/** @Seating */
+
+@seating-font-size:   1.5rem;
+@seating-color:       @color-gray-100;
+
+/** @Seating end */
+
+
+/** @Typography */
+
+@font-base: 0.875rem;   // 14px;
+@font-lg:   1rem;       // 16px;
+@font-sm:   0.75em;     // 12px;
+
+@font-family: Sofia, 'Helvetica Neue', Helvetica, Arial, '\5FAE\8F6F\96C5\9ED1', sans-serif;
+
+@line-base: 1.4285714;  // 20px;
+
+/** @Typography end */
