@@ -51,7 +51,8 @@ module.exports = function(grunt) {
           'bower_components/jquery/dist/jquery.min.js',
           'bower_components/underscore/underscore.js',
           'bower_components/backbone/backbone.js',
-          'app/js/**.*'
+          'app/js/views/*.js',
+          'app/js/*.js'
         ],
         dest: 'dist/js/global.min.js'
       }

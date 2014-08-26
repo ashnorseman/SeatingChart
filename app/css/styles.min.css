@@ -47,6 +47,10 @@ a:hover,
 a:active {
   color: #d770ad;
 }
+h2 {
+  margin-top: 60px;
+  font-size: 2rem;
+}
 /**
  * Layout
  * ------
@@ -557,7 +561,7 @@ lesshat-selector {
 }
 .row {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
 }
 .block {
   margin-bottom: 40px;
@@ -587,6 +591,9 @@ lesshat-selector {
 }
 .pic-product {
   background-color: #f6bb42;
+}
+.pic-mobile {
+  background-color: #ec87c0;
 }
 .pdc-qa {
   background-color: #48cfad;
